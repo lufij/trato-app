@@ -1,0 +1,15 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://rsms.me/inter/font-files/Inter-Regular.woff2')  format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  @apply font-sans text-gray-800 bg-gray-50 dark:bg-gray-900 dark:text-white transition-colors duration-300;
+}
